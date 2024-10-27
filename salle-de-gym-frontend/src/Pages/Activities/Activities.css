@@ -1,0 +1,51 @@
+/* Custom CSS for Activities Page */
+
+/* Set card background, border, and shadow */
+.activity-card {
+    background-color: white;
+    border: 1px solid #00B98E;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 60, 106, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  .activity-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Style the card image */
+  .activity-card img {
+    border-radius: 10px 10px 0 0;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  /* Card Title in teal-green */
+  .activity-card-title {
+    color: #00B98E;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  /* Capacity text in dark blue */
+  .activity-card-text {
+    color: rgba(0, 60, 106, 1);
+    font-size: 1rem;
+  }
+  
+  /* Filter section */
+  .filter-section .form-label {
+    color: rgba(0, 60, 106, 1);
+    font-weight: bold;
+  }
+  
+  .filter-section .form-control {
+    border-radius: 5px;
+    border: 1px solid rgba(0, 60, 106, 1);
+  }
+  
+  .filter-section .form-control:focus {
+    border-color: #00B98E;
+    box-shadow: 0 0 5px #00B98E;
+  }
+  

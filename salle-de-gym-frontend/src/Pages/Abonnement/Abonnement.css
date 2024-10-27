@@ -1,0 +1,48 @@
+/* Custom CSS for Abonnement List Page */
+
+.abonnement-list-container {
+  padding: 20px; /* Adds some padding around the container */
+}
+
+.abonnement-card {
+  background-color: #ffffff; /* Card background */
+  border: 1px solid #00B98E; /* Teal-green border */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 60, 106, 0.15); /* Subtle shadow for depth */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+}
+
+.abonnement-card:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+  box-shadow: 0 6px 12px rgba(0, 60, 106, 0.25); /* Enhance shadow on hover */
+}
+
+.abonnement-card-title {
+  color: #00B98E; /* Teal-green for title */
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.abonnement-card-text {
+  color: rgba(0, 60, 106, 1); /* Dark blue text for card text */
+  font-size: 1rem;
+}
+
+.abonnement-button {
+  border-radius: 5px; /* Rounded button corners */
+  border: 1px solid #00B98E; /* Border color to match theme */
+}
+
+.abonnement-button:hover {
+  background-color: #00B98E; /* Change button color on hover */
+  color: white; /* White text on hover */
+}
+
+.loading-spinner {
+  display: block;
+  margin: 0 auto; /* Center loading spinner */
+}
+
+.text-center {
+  text-align: center; /* Center text in alerts and titles */
+}
